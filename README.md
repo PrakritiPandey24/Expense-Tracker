@@ -1,70 +1,76 @@
-# Expense Tracker (Python)
+# Expense Tracker (Streamlit)
 
-A terminal-based expense tracker built using Python that allows users to record, manage, and analyze daily expenses.
-
-This project is designed to practice core programming concepts such as data structures, functions, user input handling, and basic data visualization.
+A simple and interactive **Expense Tracker web application** built using **Python and Streamlit**.  
+This app allows users to add daily expenses, categorize them, and visualize spending patterns.
 
 ---
 
 ## Features
 
-- Add an expense with:
-  - Name
-  - Amount
-  - Date
-  - Category
-- Edit existing expenses
-- Remove expenses
-- View all expenses
-- Calculate total daily expenses
-- Set a daily budget
-- Check whether you are over or under budget
-- Visualize expenses using graphs (Matplotlib)
+- Add expenses with name, amount, date, and category
+- View all expenses in a table
+- See total spending
+- Category-wise expense visualization
+- Daily spending trend visualization
+- Clear all expenses with one click
+- Uses session state (data persists during app runtime)
 
 ---
 
-## Technologies Used
+## Tech Stack
 
 - Python
-- Matplotlib
-- Standard Python libraries (datetime)
+- Streamlit
+- Pandas
 
 ---
 
-## How to Run the Project
+## How to Run the App Locally
 
-1. Clone the repository:
-   git clone https://github.com/yourusername/expense-tracker-python.git
-2. Navigate to the project folder:
-   cd expense-tracker-python
-3. Install dependencies:
-   pip install -r requirements.txt
-4. Run the program:
-   python expense_tracker.py
+### Prerequisites
+- Python 3.8 or higher
+- pip installed
 
 ---
 
-## Project Status
-
-This project is currently under development.
-
-### Planned Improvements
-
-- Add a Streamlit-based graphical user interface
-- Add monthly and category-wise expense analysis
-- Improve input validation and error handling
+### 1. Clone the Repository
+git clone https://github.com/your-username/expense-tracker.git
+cd expense-tracker
+### 2. Create and Activate a Virtual Environment
+python -m venv venv
+### 3. Install Dependencies
+pip install -r requirements.txt
+### 4. Run the application
+streamlit run app.py
+### 5. Open in Browser
+The app will automatically open 
 
 ---
 
-## Learning Outcomes
+## Notes
 
-Through this project, I practiced:
+- This application uses **Streamlit session state** to store expense data temporarily.
+- All data is cleared when the app is refreshed or restarted.
+- The project is designed as a **beginner-friendly implementation** to learn Streamlit and frontend integration with Python.
 
-- Writing modular and structured Python code
-- Using dictionaries and lists to manage data
-- Handling user input and program control flow
-- Working with dates and budget calculations
-- Creating basic data visualizations using Matplotlib
-- Structuring and documenting a Python project for GitHub
+---
+
+## Future Improvements
+
+- Add persistent storage using a database or CSV file
+- Implement user authentication
+- Include monthly and yearly expense summaries
+- Enable exporting expenses as a CSV file
+
+---
+
+## Key Learnings
+
+- Built a complete frontend application using Streamlit
+- Implemented structured user input using Streamlit forms
+- Managed application state with `st.session_state`
+- Performed data manipulation and grouping using Pandas
+- Created basic data visualizations for expense analysis
+- Designed a clean and user-friendly layout using Streamlit components
 
 ---
