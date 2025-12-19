@@ -34,7 +34,7 @@ This app allows users to add daily expenses, categorize them, and visualize spen
 ---
 
 ### 1. Clone the Repository
-git clone https://github.com/your-username/expense-tracker.git
+clone the repository
 cd expense-tracker
 ### 2. Create and Activate a Virtual Environment
 python -m venv venv
