@@ -90,8 +90,6 @@ else:
         st.line_chart(daily_sum)
 
 # ----------------------------------------------------
-# Optional: Clear All Expenses
-# ----------------------------------------------------
 st.divider()
 
 if st.button("Clear All Expenses"):
